@@ -21,3 +21,13 @@ function div(v1, v2) {
 function mult(v1, v2) {
   return v1 * v2;
 }
+
+// retorna o valor da raiz quadrada do valor recebido por parâmetro
+function square(v1) {
+  return Math.sqrt(v1);
+}
+
+// (Nova função) retorna o valor da base elevada ao expoente
+function pow(base, exponent) {
+  return Math.pow(base, exponent);
+}
